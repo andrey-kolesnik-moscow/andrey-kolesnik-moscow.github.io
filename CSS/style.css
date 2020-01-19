@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+}
+
+.background {
+	background: url("../Images/bg.jpg") center no-repeat; 
+	height: 100vh;
+}
+
+.wrapper {
+	position: absolute;
+	top: 30%;
+	left: 35%;
+}
+
+.calculator {
+	background: #d8e91f;
+	border: 2px solid #e19378;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;
+	width: 360px;
+	opacity: 0.4;
+}
+
+.additional-menu {
+	float: left; 
+	margin: 42px -180px;
+	background: #d8e91f;
+	border: 2px solid #e19378;
+	display: flex;
+	flex-wrap: wrap;
+	width: 180px;
+	opacity: 0.4;
+}
+
+.menu-right {
+	border: 2px solid #e19378;
+	position: absolute;
+	top:10%;
+	right: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	width: 180px;
+	opacity: 0.4;
+}
+
+.menu-left {
+	background: #d8e91f;
+	font-size: 12px;
+	position: absolute;
+	top:10%;
+	left: 10%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 170px;
+	opacity: 0.4;
+}
+
+.precision-indication, 
+.precision-buttons {
+	height: 30px;
+	background: #d8e91f;
+	text-align: center;
+}
+
+.precision-buttons {
+	border: none;
+    width: 15%;
+}
+
+.output {
+	border: 1px solid #e19378;
+	background: blue;
+	flex-basis: 360px;
+	background: yellow;
+	text-align: right;
+	line-height: 40px;
+	height: 40px;
+	padding: 0 5px;
+	display: flex;
+	justify-content: space-between;
+}
+
+#infoJoke {
+	color: red;
+}
+
+.button {
+	background: #d8e91f;
+	border: 1px solid #e19378;
+	text-decoration: none;
+	flex-basis: 90px;
+	height: 40px;
+}
+
+.button:hover,
+.precision-buttons:hover {
+	color: white;
+	background: blue;
+}
+
+.buttonAC {
+	flex-basis: 180px;
+}
+
+.crash {
+	flex-basis: 360px;
+	background: blue;
+	color: yellow;
+}
+
+.crash:hover {
+	background: red;
+}
+
+footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	margin-right: 2px;
+}
